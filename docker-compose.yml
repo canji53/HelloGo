@@ -29,6 +29,6 @@ services:
       - ./.env:/go/src/.env
     depends_on:
       - mysql
-    # command: >
-    #   /bin/sh -c
-    #   "go run main.go"
+    command: >
+      /bin/sh -c
+      "go run main.go"
